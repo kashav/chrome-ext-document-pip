@@ -44,7 +44,8 @@ chrome.runtime.onMessage.addListener(async (request, sender, sendResponse) => {
                 }
             });
 
-            pipWindow.document.body.append(parentElement);
+            const clonedNode = parentElement.cloneNode(true);
+            pipWindow.document.body.append(clonedNode);
 
             clickedElement = null;
         }
