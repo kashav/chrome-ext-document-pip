@@ -1,6 +1,6 @@
 {
-  "name": "dpip",
-  "displayName": "dpip",
+  "name": "chrome-ext-document-pip",
+  "displayName": "Picture in Picture",
   "version": "0.0.0",
   "author": "Kashav Madan",
   "description": "",

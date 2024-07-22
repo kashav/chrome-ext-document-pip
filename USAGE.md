@@ -1,4 +1,4 @@
-# dpip
+# chrome-ext-document-pip
 
 > a chrome extension tools built with Vite + Vanilla, and Manifest v3
 
@@ -13,7 +13,7 @@
 run the command
 
 ```shell
-$ cd dpip
+$ cd chrome-ext-document-pip
 
 $ npm run dev
 ```
@@ -21,7 +21,7 @@ $ npm run dev
 ### Chrome Extension Developer Mode
 
 1. set your Chrome browser 'Developer mode' up
-2. click 'Load unpacked', and select `dpip/build` folder
+2. click 'Load unpacked', and select `chrome-ext-document-pip/build` folder
 
 ### Nomal FrontEnd Developer Mode
 
