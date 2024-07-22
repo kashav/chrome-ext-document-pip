@@ -14,7 +14,6 @@ chrome.runtime.onMessage.addListener(async (request, sender, sendResponse) => {
             const parentElement = clickedElement.parentElement;
             const parentRect = parentElement.getBoundingClientRect();
 
-            // TODO: Add type definitions for documentPictureInPicture.
             const pipWindow = await documentPictureInPicture.requestWindow({
                 width: parentRect.width,
                 height: parentRect.height,
@@ -38,8 +37,8 @@ chrome.runtime.onMessage.addListener(async (request, sender, sendResponse) => {
 
                     link.rel = "stylesheet";
                     link.type = styleSheet.type;
-                    link.media = styleSheet.media;
-                    link.href = styleSheet.href;
+                    link.media = styleSheet.media.mediaText;
+                    link.href = styleSheet.href!;
                     pipWindow.document.head.appendChild(link);
                 }
             });
