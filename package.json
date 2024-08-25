@@ -1,9 +1,9 @@
 {
   "name": "chrome-ext-document-pip",
   "displayName": "Picture in Picture",
-  "version": "0.0.0",
+  "version": "0.0.3",
   "author": "Kashav Madan",
-  "description": "",
+  "description": "Enable picture-in-picture mode for any element of the webpage.",
   "type": "module",
   "license": "MIT",
   "keywords": [
