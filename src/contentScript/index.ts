@@ -1,5 +1,3 @@
-console.info('contentScript is running')
-
 let clickedElement: Element | null;
 
 document.addEventListener("contextmenu", event => {
