@@ -22,13 +22,13 @@
     "zip": "npm run build && node src/zip.js"
   },
   "devDependencies": {
-    "@crxjs/vite-plugin": "^2.0.0-beta.19",
+    "@crxjs/vite-plugin": "^2.0.0-beta.26",
     "@types/chrome": "^0.0.268",
     "gulp": "^5.0.0",
     "gulp-zip": "^6.0.0",
     "new-javascript": "^0.4.7",
-    "prettier": "^3.3.3",
-    "typescript": "^5.5.3",
-    "vite": "^5.3.4"
+    "prettier": "^3.4.1",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.0"
   }
 }
